@@ -14,7 +14,7 @@
 
 # Pre-requisites
 
-Welcome all to this Git/ GitHub workshop.
+Welcome all to this Git/GitHub workshop.
 
 
 ### What are we going to learn today?
@@ -32,28 +32,29 @@ Follow the instructions on the blog: https://blog.kossiitkgp.in/using-git-bash-f
 
 ## Mac:
 
-Homebrew (http://brew.sh/) is an alternative to install Git. If you have Homebrew installed, install Git via
+1. Git comes preinstalled in the latest version of Mac. Execute `git --version` in the terminal. If a version number is obtained, Git is already present in your system.  
+2. Otherwise, Homebrew (http://brew.sh/) is an alternative to install Git. If you have Homebrew installed, you can install Git via
 
 `brew install git`
 
-## Linux:
+## Ubuntu:
 
 1. Execute `git --version` in the command line.
 2. If you get a valid version number, you have git already installed on your computer, else follow the instructions below.
 
 #### Install git
 
-1. Execute the following command: `sudo apt-get install git`. Type your password when prompted which won't be visible to you.
+1. Execute the following command: `sudo apt install git`. Type your password when prompted which won't be visible to you.
 2. Execute `git --version` in command line to verify installation.
 
 #### Configure git:
 
 1. After you've installed git properly, it's time to set some variables for the git configuration. You've to do this only once. Follow the commands on terminal.
 
-	* `git config --global user.name "ABC"`
-	* `git config --global user.email "abc.iitkgp@gmail.com"`
+	* `git config --global user.name "<GitHub handle>"`
+	* `git config --global user.email "<email address>"`
 	* `git config --global http.proxy http://172.16.2.30:8080`      // Setting system.proxy in git
-    * `git config --global core.editor gedit`
+    	* `git config --global core.editor vi`
 
 3. Now check `git config --list` to know you've set the variables correctly.
 
