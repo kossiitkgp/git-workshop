@@ -1,19 +1,4 @@
-## Speakers:
-
-	* 
-	*
-	*
-	*
-
-## Co-ordinators:
-
-	*
-	*
-	*
-	*
-
-# Pre-requisites
-
+# Prerequisites
 Welcome all to this Git/GitHub workshop.
 
 
