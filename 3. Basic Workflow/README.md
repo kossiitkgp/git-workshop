@@ -44,7 +44,11 @@
 
 ##### Congrats you uploaded your first commit !!
 
-### 9. Branching:
+### 9. Fetching changes without merging
+- `pull` fetches the changes and merges it in directly to the branch you are in. That may cause some problems if there are conflicts. Instead, it's better to use `fetch`. 
+- `fetch` does exactly what it says. It fetches commits from a repo/branch and you can either merge it or inspect it by checking out to that branch.
+
+### 10. Branching:
 - To create a new branch use `git branch <branchname>`
 - To check all the branches present use `git branch`
 - To switch over branch use `git checkout <branchname>`
