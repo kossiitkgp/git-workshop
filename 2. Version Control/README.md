@@ -23,11 +23,12 @@
 1. Centralized Version Control System
 	* The code is at a centre hub and all others access it from there.
 	* If the central code get lost, the code get lost from all the linked computers.
+	* Creating a new branch is costly as it involves making an entire copy of the original code.
 
 2. Distributed Version Control System.
 	* The central code is distributed  to all the cloned repositories.
 	* If the central code get lost, the others will still have access to the code through their clones.
-
+	* Creating a new branch is easy and it only involves tracking the changes made.
 
 ### Git over other Version Controls?
 
