@@ -39,7 +39,7 @@ Follow the instructions on the blog: https://blog.kossiitkgp.in/using-git-bash-f
 	* `git config --global user.name "<GitHub handle>"`
 	* `git config --global user.email "<email address>"`
 	* `git config --global http.proxy http://172.16.2.30:8080`      // Setting system.proxy in git
-    	* `git config --global core.editor vi`
+    	* `git config --global core.editor nano`
 
 3. Now check `git config --list` to know you've set the variables correctly.
 
