@@ -3,18 +3,14 @@
 ### 1. Creating a local repository. (Git command: git init)
 - Simply cd into the directory you want to track and type `git init`. This will create a `.git` folder in the directory with a basic skeleton without any commits.
 
-### 2. Creating a repository on Github. (Git command: git remote)
->`$ git remote add origin <URL>`
-- and to update it use `git push origin master`(explained later).
-
-### 3. Checking files which can be commited. (Git command: git status)
+### 2. Checking files which can be commited. (Git command: git status)
 >`$ git status`
 - This will list the files that have been changed in red and those which can be commited in green
 
 - To ignore files that you dont want to track create a `.gitignore` file using `touch .gitignore`
 - Open this using text editor and add names of files you want to ignore. 
 
-### 5. Staging Area.
+### 3. Staging Area.
 - Moving files to staging area:
 - For adding files individually use 
 > `$ git add <filename>`
@@ -25,24 +21,32 @@
 - and to remove all simply type 
 > `$ git reset`
 
-### 6. To track the changes you made:
-> `$ git diff`
+### 4. To track the changes you made:
+> `$ git diff`### 2. Creating### 2. Creating a repository on Github. (Git command: git remote)
+>`$ git remote add origin <URL>`
+- and to update it use `git push origin master`(explained later). a repository on Github. (Git command: git remote)
+>`$ git remote add origin <URL>`
+- and to update it use `git push origin master`(explained later).
 
-### 7. To commit the files:
+### 5. To commit the files:
 > `$ git commit`
 - but it is necessary to add messages with the commit to make sure what we did ; so for that we use `-m` extension like `git commit -m “message”`
 - You can also compare the changes you made w.r.t a commit using `git diff <commit>`.If `<commit>` field is kept empty, git will compare it with the last commit.
 
-### 8. To check the commit history:
+### 6. To check the commit history:
 >` $ git log`
 
 >` $ git log --graph` presents the change history in the tree format. 
+
+### 7. Creating a repository on Github. (Git command: git remote)
+>`$ git remote add origin <URL>`
+- and to update it use `git push origin master`(explained later).
 
 ### 8. Uploading your changes to Github:
 - We use `git push origin <branchname>` to upload the changes to Github.
 - But before pushing it back we need to pull and check whether any other person made a change in the branch since the last time type in `git pull origin master` ( If on master branch else use branch name in place of master).
 
-##### Congrats you uploaded your first commit !!
+##### Congrats you made your first commit!
 
 ### 9. Fetching changes without merging
 - `pull` fetches the changes and merges it in directly to the branch you are in. That may cause some problems if there are conflicts. Instead, it's better to use `fetch`. 
