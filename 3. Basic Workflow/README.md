@@ -59,5 +59,10 @@
 - To check it they are merged type in `git branch --merged`
 - If the branch is successfully merged we can now delete the branch–`git branch -d <branchname>`
 
+### 11. Switching to previous commit version (Extreme Situations):
+
+- We do `git reset --hard <SOME-COMMIT>` . Remember all code changes will be lost after this commit number.
+- If we do `git reset <SOME-COMMIT>` . It will reach to a state where the changes made after the commit number were still to added to the staging area.
+
 #### Pull Request:
 - Send a pull request to sandbox repository.
