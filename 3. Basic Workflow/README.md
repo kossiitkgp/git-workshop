@@ -24,20 +24,19 @@
 ### 4. To track the changes you made:
 > `$ git diff`
 
-### 5. Creating a repository on GitHub. (Git command: git remote)
->`$ git remote add origin <URL>`
-- and to update it use `git push origin master`(explained later).
-
-### 6. To commit the files:
+### 5. To commit the files:
 > `$ git commit`
 - but it is necessary to add messages with the commit to make sure what we did ; so for that we use `-m` extension like `git commit -m “message”`
 - You can also compare the changes you made w.r.t a commit using `git diff <commit>`.If `<commit>` field is kept empty, git will compare it with the last commit.
 
-### 7. To check the commit history:
+### 6. To check the commit history:
 >` $ git log`
 
 >` $ git log --graph` presents the change history in the tree format. 
 
+### 7. Creating a repository on GitHub. (Git command: git remote)
+>`$ git remote add origin <URL>`
+- and to update it use `git push origin master`(explained later).
 
 ### 8. Uploading your changes to Github:
 - We use `git push origin <branchname>` to upload the changes to Github.
